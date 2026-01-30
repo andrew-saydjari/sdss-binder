@@ -19,6 +19,7 @@ Homepage = "https://github.com/andycasey/sdss-binder-instructions"
 
 [project.entry-points."jupyter_serverproxy_servers"]
 sdss = "sdss_binder:setup"
+marimo = "sdss_binder:setup_marimo"
 
 [tool.setuptools.package-data]
-sdss_binder = ["sdss.ico", "sdss.svg"]
+sdss_binder = ["sdss.ico", "sdss.svg", "marimo.svg"]
